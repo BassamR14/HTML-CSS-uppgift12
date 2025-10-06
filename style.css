@@ -26,8 +26,11 @@ footer {
   bottom: 0px;
   left: 0px;
   color: darkred;
-.gallery {
-  display: flex;
+
+
+.gallery{
+
+    display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
@@ -42,6 +45,5 @@ footer {
   max-width: 500px;
   height: 500px;
   border-radius: 10px;
-
   object-fit: cover;
 }
