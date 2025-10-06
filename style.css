@@ -1,31 +1,49 @@
 .button {
-  background-color: rgb(182, 30, 30);
-  border-radius: 10px;
-  color: white;
-  width: 80px;
+    background-color: rgb(182, 30, 30);
+    border-radius: 10px;
+    color: white;
+    width: 80px;
 }
 .logo {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
 }
+
+
+nav {
+    text-align: center;
+    font-size: 30px;
+    gap: 50px;
+}
+a {
+    text-decoration: none;
+    color: darkred;
+    gap: 50px;
+}
+a:hover {color: goldenrod;}
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 100px;
+} 
 
 .header h1 {
-  color: darkred;
-  font-weight: bold;
-  font-size: 60px;
-}
+    color: darkred;
+    font-weight: bold;
+    font-size: 80px;
+    }
 
 footer {
   position: fixed;
   bottom: 0px;
   left: 0px;
   color: darkred;
+}
+
 .gallery {
   display: flex;
   justify-content: space-around;
@@ -44,4 +62,14 @@ footer {
   border-radius: 10px;
 
   object-fit: cover;
+}
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: darkred;
+    }
+
+h1 {
+    color: darkred;
+    font-size: 40px;
 }
