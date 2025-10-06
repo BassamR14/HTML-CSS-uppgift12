@@ -46,3 +46,7 @@ footer {
   border-radius: 10px;
   object-fit: cover;
 }
+
+.middle {
+  text-align: center;
+}
