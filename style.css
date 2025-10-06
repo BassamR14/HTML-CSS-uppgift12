@@ -12,37 +12,38 @@
   width: 100px;
 }
 .logo {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
-
 
 nav {
-    text-align: center;
-    font-size: 30px;
-    gap: 50px;
+  text-align: center;
+  font-size: 30px;
+  gap: 50px;
 }
 a {
-    text-decoration: none;
-    color: darkred;
-    gap: 50px;
+  text-decoration: none;
+  color: darkred;
+  gap: 50px;
 }
-a:hover {color: goldenrod;}
+a:hover {
+  color: goldenrod;
+}
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    font-size: 100px;
-} 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 100px;
+}
 
 .header h1 {
-    color: darkred;
-    font-weight: bold;
-    font-size: 80px;
-    }
+  color: darkred;
+  font-weight: bold;
+  font-size: 80px;
+}
 
 footer {
   position: fixed;
@@ -67,16 +68,14 @@ footer {
   max-width: 500px;
   height: 500px;
   border-radius: 10px;
-
   object-fit: cover;
 }
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    color: darkred;
-    }
 
 h1 {
-    color: darkred;
-    font-size: 40px;
+  color: darkred;
+  font-size: 40px;
+}
+
+.middle {
+  text-align: center;
 }
