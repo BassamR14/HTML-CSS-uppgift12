@@ -26,11 +26,10 @@ footer {
   bottom: 0px;
   left: 0px;
   color: darkred;
+}
 
-
-.gallery{
-
-    display: flex;
+.gallery {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
