@@ -4,3 +4,26 @@
   color: white;
   width: 80px;
 }
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  color: darkred;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  color: darkred;
+}
